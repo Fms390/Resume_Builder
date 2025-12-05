@@ -1,5 +1,5 @@
 # Resume Builder
-A Python program that helps create a professional resumes in test format.
+A Python program that helps create a professional resumes in text format.
 
 ## How to use 
 1.  Run the Python file
