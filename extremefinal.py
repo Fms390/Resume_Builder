@@ -377,7 +377,7 @@ while True:
         f.write('\n\n')
         f.close()
         print('\n')
-        #SUMMARY
+#SUMMARY
 
         if s :
             f = open(y,'a')
@@ -395,7 +395,8 @@ while True:
             f = open(y,'a')
             f.write('SKILLS\n')
             f.write('-'*80+'\n')
-            f.write(L)
+            wrp = textwrap.fill(L, width = 80)
+            f.write(wrp)
             f.write('\n\n')
             f.close()
             print('\n')
